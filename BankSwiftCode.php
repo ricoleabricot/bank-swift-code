@@ -1,6 +1,6 @@
 <?php
 /**
- * This file is part of the SecurityBundle package.
+ * This file is part of the BankSwiftCode package.
  * Pierrick Gicquelais <pierrick.gicquelais@gmail.com>
  *
  * For the full copyright and license information, please view the LICENSE
