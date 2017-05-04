@@ -1,0 +1,24 @@
+{
+  "name": "rico/bank-swift-code",
+  "type": "library",
+  "description": "Manage all bank swift codes with minimal data and parsing",
+  "keywords": ["bank", "swift", "code", "php"],
+  "homepage": "https://github.com/Kafei59/bank-swift-code",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pierrick Gicquelais",
+      "email": "pierrick.gicquelais@gmail.com",
+      "homepage": "https://github.com/Kafei59",
+      "role": "Web Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-0": {
+      "Monolog": "src"
+    }
+  }
+}

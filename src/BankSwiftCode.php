@@ -95,7 +95,7 @@ class BankSwiftCode
      */
     protected function loadRegistry()
     {
-        $content = file_get_contents("lib/".$this->locale."_swift_codes");
+        $content = file_get_contents("../lib/".$this->locale."_swift_codes");
         if ($content) {
             $rows = explode("\n", $content);
 
