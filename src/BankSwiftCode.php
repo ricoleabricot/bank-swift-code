@@ -39,7 +39,7 @@ class BankSwiftCode
      *
      * @param string $locale        The locale file to load
      */
-    public function loadSwiftCodesWithLocale(string $locale)
+    public function loadSwiftCodesWithLocale($locale)
     {
         $this->locale = $locale;
         $this->loadRegistry();
@@ -51,7 +51,7 @@ class BankSwiftCode
      * @param string $code          The swift code to find in registry
      * @return mixed|null           If true all bank informations, otherwise null
      */
-    public function getBankInformationsBySwiftCode(string $code)
+    public function getBankInformationsBySwiftCode($code)
     {
         $results = array_filter($this->registry, function($entry) use ($code) {
             return $entry['swift_code'] === $code;
@@ -66,7 +66,7 @@ class BankSwiftCode
      * @param string $id            The identifier to find in registry
      * @return mixed|null           If true all bank informations, otherwise null
      */
-    public function getBankInformationsById(string $id)
+    public function getBankInformationsById($id)
     {
         $results = array_filter($this->registry, function($entry) use ($id) {
             return $entry['bank_id'] === $id;
@@ -81,7 +81,7 @@ class BankSwiftCode
      * @param string $name          The name to find in registry
      * @return mixed|null           If true all bank informations, otherwise null
      */
-    public function getBankInformationsByBankName(string $name)
+    public function getBankInformationsByBankName($name)
     {
         $results = array_filter($this->registry, function($entry) use ($name) {
             return strtolower($entry['bank_name']) === strtolower($name);
