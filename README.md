@@ -14,7 +14,7 @@ Feel free to contribute with any kind of help.
 Installation via composer
 -------------------------
 
-If you use [composer](https://getcomposer.org/) you can simply run `composer require rico/bank-swift-code` to get going. Reportedly [![Daily Downloads](https://poser.pugx.org/globalcitizen/php-iban/d/daily)](https://packagist.org/packages/globalcitizen/php-iban) (and [![Monthly Downloads](https://poser.pugx.org/globalcitizen/php-iban/d/monthly)](https://packagist.org/packages/globalcitizen/php-iban)) were done via composer.
+If you use [composer](https://getcomposer.org/) you can simply run `composer require rico/bank-swift-code` to get going. 
 
 Then just add the following to your `composer.json` file:
 
