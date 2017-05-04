@@ -22,7 +22,7 @@ Then just add the following to your `composer.json` file:
 // composer.json
 {
     "require": {
-        "rico/bank-swift-code": "2.5.9"
+        "rico/bank-swift-code": "1.0.0"
     }
 }
 ```
