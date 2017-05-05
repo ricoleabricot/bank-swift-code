@@ -16,7 +16,7 @@ Installation via composer
 
 If you use [composer](https://getcomposer.org/) you can simply run `composer require rico/bank-swift-code` to get going. 
 
-Then just add the following to your `composer.json` file:
+Otherwise just add the following to your `composer.json` file:
 
 ```js
 // composer.json
@@ -27,7 +27,7 @@ Then just add the following to your `composer.json` file:
 }
 ```
 
-You can [see this library on Packagist](https://packagist.org/packages/globalcitizen/php-iban).
+You can [see this library on Packagist](https://packagist.org/packages/rico/bank-swift-code).
 
 
 
